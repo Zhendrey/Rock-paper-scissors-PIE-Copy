@@ -1,0 +1,13 @@
+body {
+  background-color: #FFECAE;
+  font-family: "Cinzel Decorative";
+  overflow-x: hidden;
+}
+
+.header__how-much-pies {
+  width: 230px;
+  height: 115px;
+}
+.header__how-much-pies__column {
+  height: 100%;
+}

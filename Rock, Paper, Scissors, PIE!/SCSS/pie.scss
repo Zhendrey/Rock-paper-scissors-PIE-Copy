@@ -1,0 +1,43 @@
+body{
+    background-color: #FFECAE;
+    font-family: "Cinzel Decorative";
+}
+.header{
+    &__container {
+        max-width: 1409px;
+        margin: 0 auto;
+    }
+
+        &__navbar{
+            margin: 19px 0px 0px 0px;
+        }
+}
+.how-much-pies {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #FFFFFF;
+    border: 7px solid #000000;
+    border-radius: 66px;
+    padding: 0px 31px;
+    overflow: auto;
+}
+.pieStore{
+    &__body{
+        transform: translateY(-50px);
+        overflow-y: hidden;
+        opacity: 0;
+        transition: all 1s ease 0s;
+    }
+    &__proportions{
+        height: 84px;
+    }
+    &__padding{
+        padding: 0;
+    }
+}
+.pies-amount{
+    font-size: 39px;
+    font-family: "Anton";
+    color: #FFA300;
+}

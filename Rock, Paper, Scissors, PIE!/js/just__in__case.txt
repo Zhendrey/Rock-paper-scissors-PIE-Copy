@@ -1,0 +1,8 @@
+     bigRocks__row.children[0].style.transition = intro__transition;
+    bigRocks__row.children[1].style.transition = intro__transition;
+    rockCave__row.style.transition = intro__transition;
+    
+    defend__row.children[0].children[0].style.transition = intro__transition;
+    defend__row.children[defend__row.children.length - 2].children[0].style.transition = intro__transition;
+    defend__row.children[defend__row.children.length - 1].children[0].style.transition = intro__transition;
+    footer__mountains__backround.style.transition = intro__transition;

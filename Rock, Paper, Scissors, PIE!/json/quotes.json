@@ -1,0 +1,100 @@
+[
+    {
+        "positiveQuotes": [
+            "Victory is sweetest when you've known defeat.",
+            "Victory belongs to the most persevering.",
+            "In the midst of chaos, there is also opportunity.",
+            "The harder the battle, the sweeter the victory.",
+            "He who fears being conquered is sure of defeat.",
+            "It is better to conquer yourself than to win a thousand battles.",
+            "The greatest victory is that which requires no battle.",
+            "It's not whether you get knocked down; it's whether you get up.",
+            "Victory has a thousand fathers, but defeat is an orphan.",
+            "Victorious warriors win first and then go to war, while defeated warriors go to war first and then seek to win."
+    ],
+    "authors":[
+        "Malcolm S. Forbes",
+        "Napoleon Bonaparte",
+        "Sun Tzu",
+        "Les Brown",
+        "Napoleon Bonaparte",
+        "Buddha",
+        "Sun Tzu",
+        "Vince Lombardi",
+        "John F. Kennedy",
+        "Sun Tzu"
+    ]
+    },
+    {
+        "negativeQuotes": [
+            "The harder the struggle, the more glorious the triumph. Self-realization demands very great struggle.",
+            "Every loss leaves a room for a better thing to enter.",
+            "Losing is not a disgrace, if you have given your best.",
+            "Success is not forever and failure is not fatal.",
+            "Failure is simply an opportunity to begin again, this time more intelligently.",
+            "In the hopes of reaching the moon, men fail to see the flowers that blossom at their feet.",
+            "Our strength grows out of our struggles.",
+            "Fall seven times, stand up eight.",
+            "Life's real failure is when you do not realize how close you were to success when you gave up.",
+            "The phoenix must burn to emerge."
+        ],
+        "authors":[
+            "Swami Sivananda",
+            "Unknown",
+            "Fernando Montes de Oca",
+            "Lalu Prasad Yadav",
+            "Henry Ford",
+            "Albert Schweitzer",
+            "Ralph Waldo Emerson",
+            "Japanese Proverb",
+            "Unknown",
+            "Janet Fitch"
+        ]
+    },
+    {
+        "allTheQuotes":[
+            "Victory is sweetest when you've known defeat.",
+            "Victory belongs to the most persevering.",
+            "In the midst of chaos, there is also opportunity.",
+            "The harder the battle, the sweeter the victory.",
+            "He who fears being conquered is sure of defeat.",
+            "It is better to conquer yourself than to win a thousand battles.",
+            "The greatest victory is that which requires no battle.",
+            "It's not whether you get knocked down; it's whether you get up.",
+            "Victory has a thousand fathers, but defeat is an orphan.",
+            "Victorious warriors win first and then go to war, while defeated warriors go to war first and then seek to win.",
+            "The harder the struggle, the more glorious the triumph. Self-realization demands very great struggle.",
+            "Every loss leaves a room for a better thing to enter.",
+            "Losing is not a disgrace, if you have given your best.",
+            "Success is not forever and failure is not fatal.",
+            "Failure is simply an opportunity to begin again, this time more intelligently.",
+            "In the hopes of reaching the moon, men fail to see the flowers that blossom at their feet.",
+            "Our strength grows out of our struggles.",
+            "Fall seven times, stand up eight.",
+            "Life's real failure is when you do not realize how close you were to success when you gave up.",
+            "The phoenix must burn to emerge."
+        ],
+        "authors":[
+            "Malcolm S. Forbes",
+            "Napoleon Bonaparte",
+            "Sun Tzu",
+            "Les Brown",
+            "Napoleon Bonaparte",
+            "Buddha",
+            "Sun Tzu",
+            "Vince Lombardi",
+            "John F. Kennedy",
+            "Sun Tzu",
+            "Swami Sivananda",
+            "Unknown",
+            "Fernando Montes de Oca",
+            "Lalu Prasad Yadav",
+            "Henry Ford",
+            "Albert Schweitzer",
+            "Ralph Waldo Emerson",
+            "Japanese Proverb",
+            "Unknown",
+            "Janet Fitch"
+        ]
+    }
+]

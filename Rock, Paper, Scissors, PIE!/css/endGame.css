@@ -1,0 +1,398 @@
+@import url(https://fonts.googleapis.com/css?family=Cinzel+Decorative:regular,700,900);
+@import url(https://fonts.googleapis.com/css?family=Anton:regular);
+@import url(https://fonts.googleapis.com/css?family=Comic+Neue:300,300italic,regular,italic,700,700italic);
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus, :active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+nav, footer, header, aside {
+  display: block;
+}
+
+html, body {
+  height: 100%;
+  min-width: 320px;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  background-color: #FFECAE;
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+
+body {
+  font-family: "Cinzel Decorative";
+  opacity: 0;
+  -webkit-transition: -webkit-transform 1s ease 0.2s;
+  transition: -webkit-transform 1s ease 0.2s;
+  transition: transform 1s ease 0.2s;
+  transition: transform 1s ease 0.2s, -webkit-transform 1s ease 0.2s;
+}
+
+.wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  min-height: 100%;
+  overflow: hidden;
+  -webkit-transform: translate(0px, -30px);
+          transform: translate(0px, -30px);
+}
+
+.container {
+  max-width: 825px;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
+  margin: 168px auto 0;
+}
+@media (min-width: 825px) {
+  .container {
+    max-width: 1125px;
+  }
+}
+
+.battle__conclution {
+  font-size: 56px;
+  letter-spacing: 12.5px;
+  color: #078d00;
+  text-transform: uppercase;
+  text-align: center;
+  position: relative;
+  z-index: -1;
+  padding: 0px 15px;
+}
+.battle__results {
+  position: relative;
+}
+.battle__results__container {
+  max-width: 518px;
+  margin: 0 auto;
+}
+@media (min-width: 1125px) {
+  .battle__results__container {
+    max-width: 618px;
+  }
+}
+.battle__results__row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.battle__conclution-inspirational-quote_fade-down {
+  -webkit-transform: translate(0px, 0px);
+          transform: translate(0px, 0px);
+  opacity: 1;
+}
+
+.victory-set_color {
+  color: #078d00;
+}
+
+.loss-set_color {
+  color: #e22a29;
+}
+
+.tie-set_color {
+  color: #666666;
+}
+
+.inspirational-quote {
+  font-size: 27px;
+  line-height: 1.4;
+  letter-spacing: 1.2px;
+  font-weight: 700;
+  color: #078d00;
+  text-align: center;
+  text-transform: lowercase;
+  margin: 34px auto 0px auto;
+  width: 800px;
+  position: relative;
+  z-index: -1;
+  max-height: 75px;
+  padding: 0px 15px;
+  overflow: scroll;
+}
+
+.bigger-letter-spacing {
+  letter-spacing: 8px;
+  text-transform: uppercase;
+}
+
+.pies {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.pies__amount {
+  font-size: 65.7px;
+  font-family: "Anton";
+  margin: 0px 14px 0px 0px;
+}
+
+.streak {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0px 0px 31px 0px;
+}
+.streak__fire-flame {
+  margin: 0px 14px 0px 0px;
+}
+.streak__amount {
+  font-size: 65.7px;
+  font-family: "Anton";
+  color: #e22a29;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.bought-items {
+  position: absolute;
+  right: -109px;
+  top: 0;
+}
+
+.remaining {
+  font-family: "Anton";
+  font-size: 22px;
+  color: #078d00;
+  text-align: center;
+  display: inline-block;
+  margin: 8px 0px;
+}
+
+.end-game-navigation-buttons__container {
+  position: relative;
+  max-width: 854px;
+  margin: 0 auto;
+}
+
+.return__main-page, .play-again {
+  text-transform: uppercase;
+  -webkit-transition: all 0.6s ease 0s;
+  transition: all 0.6s ease 0s;
+  font-size: 23px;
+  color: #ffffff;
+  width: 324px;
+  height: 140px;
+  padding: 4px;
+  letter-spacing: 11px;
+  line-height: 1.4;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 80px;
+  text-align: center;
+  -webkit-transition: all 0.5s ease 0s;
+  transition: all 0.5s ease 0s;
+}
+
+.return__main-page {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 50%;
+          flex: 0 1 50%;
+  font-weight: 300;
+  background-color: #000000;
+  margin: 0px 0px 15px 0px;
+  color: #ffffff;
+}
+.return__main-page:hover {
+  background-color: #ffffff;
+  color: #000000;
+  text-decoration: underline;
+  -webkit-box-shadow: 0px 5px 5px #000000;
+          box-shadow: 0px 5px 5px #000000;
+}
+.return__main-page:active {
+  background-color: #000000;
+  color: #ffffff;
+  -webkit-transform: translate3d(0, 3.5px, 1px);
+          transform: translate3d(0, 3.5px, 1px);
+  -webkit-box-shadow: 0px 8px 8px #ffffff;
+          box-shadow: 0px 8px 8px #ffffff;
+  -webkit-transition: all 0.1s ease 0s;
+  transition: all 0.1s ease 0s;
+}
+@media (min-width: 540px) {
+  .return__main-page {
+    margin: 0 auto;
+  }
+}
+
+@-webkit-keyframes lava-background-move {
+  0% {
+    background: -webkit-gradient(linear, left top, right top, from(#e22a29), color-stop(90%, #f6b433));
+    background: linear-gradient(to right, #e22a29 0%, #f6b433 90%);
+  }
+  25% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(18%, #e22a29), color-stop(72%, #f6b433));
+    background: linear-gradient(to right, #e22a29 18%, #f6b433 72%);
+  }
+  50% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(36%, #e22a29), color-stop(54%, #f6b433));
+    background: linear-gradient(to right, #e22a29 36%, #f6b433 54%);
+  }
+  75% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(36%, #f6b433), color-stop(54%, #e22a29));
+    background: linear-gradient(to right, #f6b433 36%, #e22a29 54%);
+  }
+  87.5% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(18%, #f6b433), color-stop(72%, #e22a29));
+    background: linear-gradient(to right, #f6b433 18%, #e22a29 72%);
+  }
+  100% {
+    background: -webkit-gradient(linear, left top, right top, from(#f6b433), color-stop(90%, #e22a29));
+    background: linear-gradient(to right, #f6b433 0%, #e22a29 90%);
+  }
+}
+
+@keyframes lava-background-move {
+  0% {
+    background: -webkit-gradient(linear, left top, right top, from(#e22a29), color-stop(90%, #f6b433));
+    background: linear-gradient(to right, #e22a29 0%, #f6b433 90%);
+  }
+  25% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(18%, #e22a29), color-stop(72%, #f6b433));
+    background: linear-gradient(to right, #e22a29 18%, #f6b433 72%);
+  }
+  50% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(36%, #e22a29), color-stop(54%, #f6b433));
+    background: linear-gradient(to right, #e22a29 36%, #f6b433 54%);
+  }
+  75% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(36%, #f6b433), color-stop(54%, #e22a29));
+    background: linear-gradient(to right, #f6b433 36%, #e22a29 54%);
+  }
+  87.5% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(18%, #f6b433), color-stop(72%, #e22a29));
+    background: linear-gradient(to right, #f6b433 18%, #e22a29 72%);
+  }
+  100% {
+    background: -webkit-gradient(linear, left top, right top, from(#f6b433), color-stop(90%, #e22a29));
+    background: linear-gradient(to right, #f6b433 0%, #e22a29 90%);
+  }
+}
+.play-again {
+  position: absolute;
+  right: 0;
+  background: -webkit-gradient(linear, left top, right top, from(#e22a29), color-stop(90%, #f6b433));
+  background: linear-gradient(to right, #e22a29 0%, #f6b433 90%);
+  -webkit-animation: lava-background-move 0.5s 1 normal 0s backwards;
+          animation: lava-background-move 0.5s 1 normal 0s backwards;
+}
+.play-again:hover {
+  -webkit-animation: lava-background-move 0.5s 1 normal 0s forwards;
+          animation: lava-background-move 0.5s 1 normal 0s forwards;
+  -webkit-box-shadow: 0px 5px 5px #ac7810;
+          box-shadow: 0px 5px 5px #ac7810;
+  text-decoration: underline;
+}
+.play-again:active {
+  -webkit-box-shadow: 0px 8px 8px #ac7810;
+          box-shadow: 0px 8px 8px #ac7810;
+  -webkit-transform: translate3d(0, 3.5px, 1px);
+          transform: translate3d(0, 3.5px, 1px);
+}
+
+.fire-lava {
+  -webkit-transition: all 1s ease 0.2s;
+  transition: all 1s ease 0.2s;
+  max-width: 100%;
+  position: relative;
+  z-index: -1;
+  padding: 0px 0px 50% 0px;
+  -webkit-transform: translate(0, 240px);
+          transform: translate(0, 240px);
+}
+.fire-lava img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+  max-width: 100%;
+  min-height: 286px;
+}
+
+.fire-lava__risen {
+  -webkit-transform: translate(0, 0px);
+          transform: translate(0, 0px);
+  -webkit-transition-delay: 1s;
+          transition-delay: 1s;
+}
