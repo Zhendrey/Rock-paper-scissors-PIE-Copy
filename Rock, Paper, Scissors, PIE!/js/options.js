@@ -245,7 +245,7 @@ optionsRow.addEventListener("click",(e)=>{
 
 
 return__mainPageButton.addEventListener("click", ()=>{
-    location.href = "/docs/index.html";
+    location.href = "/index.html";
 })
 
 let userAndEnemy__INDEXES = [];
